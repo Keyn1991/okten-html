@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    font-family: Inter;
+}
+
+header, main, section, article, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section, article {
+    color: #FFF;
+}
+
+header {
+    width: 100vw;
+    height: 23vh;
+    background: #D9D9D9;
+}
+
+main {
+    width: 100vw;
+    height: 30vh;
+    background: #BAB5B5;
+}
+
+.flex {
+    display: flex;
+}
+
+section {
+    width: 60vw;
+    height: 30vh;
+    background: #989595;
+}
+
+article {
+    width: 40vw;
+    height: 30vh;
+    background: #716B6B;
+}
+
+footer {
+    width: 100vw;
+    height: 17vh;
+    background: #D9D9D9;
+}

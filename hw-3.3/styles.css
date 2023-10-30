@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block-orangered {
+    width: 100vw;
+    height: 100vh;
+    background: #c02424;
+}
+
+.block-blue {
+    width: 100vw;
+    height: 100vh;
+    background: #4395d2;
+    align-items: center;
+}
+.block-green {
+    width: 100vw;
+    height: 100vh;
+    background: #1dc076;
+}
+
+.block-orangered,
+.block-blue, .block-green {
+    text-align: center;
+}
+
+.block-block-blue p {
+    margin-top: 10vh;
+}
+h2  {
+    margin-top: 35vh;
+}
+
+
