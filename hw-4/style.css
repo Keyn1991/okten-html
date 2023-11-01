@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+}
+
+.main {
+    border: 1px solid rgba(159, 158, 158, 0.92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
+    padding: 20px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.form-1 input {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgba(159, 158, 158, 0.92);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f1efef;
+    border-radius: 5px;
+
+}
+
+.form-1 button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #3897f0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.form-1 button:hover {
+    background-color: #357ae8;
+}
+
+.register {
+    margin-top: 25px;
+    border: 1px solid rgba(159, 158, 158, 0.92);
+    text-align: center;
+    width: 310px;
+    padding: 20px;
+}
+
+.or {
+    color: #544F4F;
+
+}
+
+.register span {
+    color: #3897f0;
+    cursor: pointer;
+}
+
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #174793;
+}
+
+.facebook-login img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.forgot-password {
+    text-align: center;
+    color: #174793;
+}
